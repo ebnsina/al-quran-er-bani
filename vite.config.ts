@@ -14,11 +14,21 @@ export default defineConfig({
         start_url: '/',
         display: 'standalone',
         background_color: '#ffffff',
-        theme_color: '#78e08f',
+        theme_color: '#4285f4',
         icons: [
           {
             src: 'images/logo_192x192.png',
             sizes: '192x192',
+            type: 'image/png',
+          },
+          {
+            src: 'images/logo_512x512.png',
+            sizes: '512x512',
+            type: 'image/png',
+          },
+          {
+            src: 'images/logo_1024x1024.png',
+            sizes: '1024x1024',
             type: 'image/png',
           },
         ],

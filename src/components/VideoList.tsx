@@ -16,7 +16,7 @@ export default function VideoList({ item }: Props) {
             alt={item.title}
           />
 
-          <span className='text-2xl sm:text-4xl absolute right-4 bottom-4 bg-blue-600 text-white size-10 sm:size-16 flex justify-center items-center rounded-full'>
+          <span className='text-2xl sm:text-4xl absolute right-4 bottom-4 bg-blue-600 text-white size-10 p-2 sm:size-16 flex justify-center items-center rounded-full'>
             {item.id}
           </span>
         </div>

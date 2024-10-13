@@ -13,7 +13,7 @@ export default function Search({ onSearch }: Props) {
   };
 
   return (
-    <div className='sticky top-0 w-full z-20 bg-white py-2'>
+    <div className='sticky top-0 left-0 right-0 w-full z-20 bg-white px-1.5 py-2'>
       <form
         onSubmit={(e) => e.preventDefault()}
         className='flex gap-2 sm:gap-4 items-center'
@@ -26,7 +26,7 @@ export default function Search({ onSearch }: Props) {
           type='search'
           name='search'
           id='search'
-          placeholder='Search'
+          placeholder='Search...'
           value={searchTerm}
           onChange={handleInputChange}
         />

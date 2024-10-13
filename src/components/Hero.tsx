@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className='bg-slate-100 rounded-md px-6 py-10 sm:py-20 text-center'>
+    <div className='bg-white rounded-md px-6 py-10 sm:py-20 text-center'>
       <h1 className='text-base sm:text-2xl font-medium mb-2'>
         Al Quran er Bani
       </h1>

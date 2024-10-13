@@ -22,7 +22,7 @@ export default function VideoItem({ videoId }: Props) {
   };
 
   return (
-    <div className='aspect-video relative'>
+    <div className='aspect-video relative bg-white rounded-md'>
       {isLoading && (
         <div className='absolute inset-0 bg-gray-200 animate-pulse'></div>
       )}

@@ -7,7 +7,7 @@ interface Props {
 
 export default function VideoLists({ videos }: Props) {
   return (
-    <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 space-y-4 sm:space-y-0'>
+    <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4'>
       {videos.map((video, index) => (
         <VideoList key={index} item={video} />
       ))}

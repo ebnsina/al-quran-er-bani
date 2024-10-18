@@ -15,7 +15,7 @@ export default function VideoList({ item }: Props) {
         <div className='relative rounded-md overflow-hidden bg-blue-500'>
           <img
             className='w-full aspect-video'
-            src='images/thumbnail.png'
+            src={`https://i.ytimg.com/vi/${item.videoId}/hqdefault.jpg`}
             alt={item.title}
           />
 

@@ -46,6 +46,12 @@ export default function Watch() {
         </Link>
       </div>
 
+      <div className='bg-white rounded-2xl p-4'>
+        <span className='text-slate-900 font-medium text-sm italic my-2'>
+          {video.surah}
+        </span>
+      </div>
+
       <div className='bg-white overflow-hidden text-ellipsis break-words px-2 py-2 rounded-2xl text-slate-600 text-sm'>
         <h4 className='font-medium mb-1'>Descriptions:</h4>
 

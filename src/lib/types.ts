@@ -4,4 +4,5 @@ export interface Video {
   description: string;
   thumbnail: string;
   videoId: string;
+  surah: string;
 }

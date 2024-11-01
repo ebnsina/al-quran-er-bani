@@ -10,8 +10,10 @@ export default function Index() {
 
   const handleSearch = (query: string) => {
     const lowercasedQuery = query.toLowerCase();
-    const filtered = videos.filter((video) =>
-      video.title.toLowerCase().includes(lowercasedQuery)
+    const filtered = videos.filter(
+      (video) =>
+        video.title.toLowerCase().includes(lowercasedQuery) ||
+        video.surah.toLowerCase().includes(lowercasedQuery)
     );
     setFilteredVideos(filtered);
   };

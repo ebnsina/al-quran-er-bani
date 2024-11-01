@@ -31,6 +31,12 @@ export default function VideoList({ item }: Props) {
             </span>
           </div>
 
+          <div>
+            <span className='text-slate-800 text-sm italic my-2'>
+              {item.surah}
+            </span>
+          </div>
+
           <div className='flex mt-2 space-x-2 items-center'>
             <img
               src='/images/logo.png'

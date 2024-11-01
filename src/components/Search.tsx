@@ -26,7 +26,7 @@ export default function Search({ onSearch }: Props) {
           type='search'
           name='search'
           id='search'
-          placeholder='Search...'
+          placeholder='Search by episode, surah...'
           value={searchTerm}
           onChange={handleInputChange}
         />

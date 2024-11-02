@@ -1308,7 +1308,7 @@ const VIDEOS = [
     thumbnails: 'https://i.ytimg.com/vi/ihS3CsL8Fj0/sddefault.jpg',
     videoId: 'ihS3CsL8Fj0',
     surah:
-      "Surah Ad Duha, Ash Insharh, At Tin, Al Alaq, Al Qadar, Al Bayyinah, Az Zalzalah, Al Adiyat, Al Qari'ah, Al Takathur",
+      "Surah Ad Duha, Ash Insharh, At Tin, Al Alaq, Al Qadar, Al Bayyinah, Az Zalzalah, Al Adiyat, Al Qari'ah, At Takathur",
   },
   {
     id: 131,
@@ -1319,7 +1319,7 @@ const VIDEOS = [
     thumbnails: 'https://i.ytimg.com/vi/Qn1KJ-ntHY0/sddefault.jpg',
     videoId: 'Qn1KJ-ntHY0',
     surah:
-      "Surah Al Asr, Al Humazah, Al Fil, Al Quraysh, Al Ma'un, Al kawthar, Al Kafirun, Al Nasr, Al Lahab/Masad, Al Ikhlas, Al Falaq, Al Nas",
+      "Surah Al Asr, Al Humazah, Al Fil, Al Quraysh, Al Ma'un, Al kawthar, Al Kafirun, An Nasr, Al Lahab/Masad, Al Ikhlas, Al Falaq, An Nas",
   },
 ];
 

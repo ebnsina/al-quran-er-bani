@@ -1308,7 +1308,7 @@ const VIDEOS = [
     thumbnails: 'https://i.ytimg.com/vi/ihS3CsL8Fj0/sddefault.jpg',
     videoId: 'ihS3CsL8Fj0',
     surah:
-      "Surah Ad Duha, Ash Insharh, At Tin, Al Alaq, Al Qadar, Al Bayyinah, Az Zalzalah, Al Adiyat, Al Qari'ah, At Takathur",
+      "Surah Ad Duha, Ash-Sharh, At Tin, Al Alaq, Al Qadar, Al Bayyinah, Az-Zalzala, Al Adiyat, Al Qari'ah, At Takathur",
   },
   {
     id: 131,

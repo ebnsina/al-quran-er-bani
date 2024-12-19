@@ -4,8 +4,10 @@ export default function Footer() {
       <p>
         Develop by{" "}
         <a
+          target="_blank"
+          rel="noreferrer"
           className="hover:underline hover:text-cyan-500"
-          href="https://m.me/ebnsina/dev"
+          href="https://m.me/ebnsina.dev"
         >
           Ebn Sina
         </a>

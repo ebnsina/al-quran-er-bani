@@ -31,7 +31,7 @@ export default function VideoList({ item }: Props) {
             </span>
           </div>
 
-          <span className="text-slate-700 text-sm block italic my-2">
+          <span className="bg-blue-50 border border-blue-200 px-2 py-1 rounded-md text-blue-500 text-xs flex w-fit my-2">
             {item.surah}
           </span>
 

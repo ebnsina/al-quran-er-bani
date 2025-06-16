@@ -1,8 +1,7 @@
-import { useState } from 'react';
-import Hero from '../components/Hero';
-import Search from '../components/Search';
-import VideoLists from '../components/VideoLists';
-import { getVideos } from '../services/video';
+import { useState } from "react";
+import Search from "../components/Search";
+import VideoLists from "../components/VideoLists";
+import { getVideos } from "../services/video";
 
 export default function Index() {
   const videos = getVideos();
@@ -19,8 +18,7 @@ export default function Index() {
   };
 
   return (
-    <div className='space-y-4'>
-      <Hero />
+    <div className="flex flex-col min-h-screen space-y-4">
       <Search onSearch={handleSearch} />
       <VideoLists videos={filteredVideos} />
     </div>
